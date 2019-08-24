@@ -18,7 +18,7 @@ extern volatile uint8_t threshold_temp;
 extern volatile uint8_t lockLCD;						
 
 void initHC05(void);
-void printString(char myString[]);						//print string to serial
+void printString(char myString[]);						        //print string to serial
 void readString(char myString[], uint8_t maxLength);	//read string from serial
 ISR(USART_RX_vect);
 
