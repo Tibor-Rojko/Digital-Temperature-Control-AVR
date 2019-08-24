@@ -28,8 +28,8 @@
 #define CMD_RSCRATCHPAD     0xbe     //read scratchpad
 #define CMD_SKIPROM         0xCC     //skip rom
 
-//uint8_t ds18b20_Reset();									   //Reset DS18B20
-uint8_t ds18b20_GetTemp();									   //Get temperature value from sensor
-//void ds18b20_GetTemp(uint8_t *digit, uint16_t *decimal);     //Get temperature value from sensor
+//uint8_t ds18b20_Reset();					//Reset DS18B20
+uint8_t ds18b20_GetTemp();					//Get temperature value from sensor
+//void ds18b20_GetTemp(uint8_t *digit, uint16_t *decimal);      //Get temperature value from sensor
 	
 #endif
