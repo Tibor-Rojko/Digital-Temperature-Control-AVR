@@ -1,13 +1,13 @@
 /***********************************************************************************************************************************
 * DS18B20 library
-* 
+* DS18B20.c
 * Maxim Ds18b20 is a low-cost temperature sensor, digitally reports the temperature data with 9-12 bit precision.
 * This sensor uses the One Wire interface, for data transmission
 * Temperature range: -55°C - 125°C (+/- 0.5°C)
 * Use 4.7K pullup resistor, beetween DQ pin, and Vcc, for one wire bus communication!!!
 *
 * pinout:
-* PC0 to Ds18B20 DQ pin
+* PB0 to Ds18B20 DQ pin
 * 4k7R between Vcc & DQ
 * 
 * copyright (c) Tibor Rojko, 2019

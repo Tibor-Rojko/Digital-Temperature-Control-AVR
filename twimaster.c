@@ -1,6 +1,6 @@
 /***********************************************************************************************
  * Very simple TWI/I2C library for AtMega168 or AtMega328                                       
- *  
+ * twimaster.c
  * 2019, Tibor Rojko
  * 
  * pinout:
